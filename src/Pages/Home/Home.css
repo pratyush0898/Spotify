@@ -1,0 +1,9 @@
+#nav {
+    display: inline;
+}
+
+#main {
+    display: flex;
+    margin: 18px;
+    gap: 16px;
+}

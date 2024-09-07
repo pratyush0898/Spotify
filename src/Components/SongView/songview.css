@@ -1,0 +1,159 @@
+#SongView {
+    height: 69vh;
+    border-radius: 9px;
+    background: #121212;
+    overflow: scroll;
+    width: 749px;
+    transition: all 2000ms ease-in-out;
+}
+
+#SongView #gradent {
+    background: -moz-linear-gradient(0deg, rgba(106,115,119,0) 0%, rgba(106,115,119,1) 37%, rgba(211,234,241,1) 82%, rgba(208,223,231,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(106,115,119,0) 0%, rgba(106,115,119,1) 37%, rgba(211,234,241,1) 82%, rgba(208,223,231,1) 100%);
+    background: linear-gradient(0deg, rgba(106,115,119,0) 0%, rgba(106,115,119,1) 37%, rgba(211,234,241,1) 82%, rgba(208,223,231,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a7377",endColorstr="#d0dfe7",GradientType=1);
+    height: 67svh;
+    margin: 1px;
+    border-radius: 9px !important;
+}
+
+#SongView  #info {
+    background: rgb(123,133,137);
+    background: -moz-linear-gradient(0deg, rgba(123,133,137,0.8379726890756303) 0%, rgba(178,191,191,1) 15%, rgba(204,238,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(123,133,137,0.8379726890756303) 0%, rgba(178,191,191,1) 15%, rgba(204,238,255,1) 100%);
+    background: linear-gradient(0deg, rgba(123,133,137,0.8379726890756303) 0%, rgba(178,191,191,1) 15%, rgba(204,238,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b8589",endColorstr="#cceeff",GradientType=1);
+    box-shadow: 1px 1px 5rem rgba(177, 177, 177, 0.3);
+    border-radius: 9px !important;
+    height: 51vh;
+}
+
+#SongView #info > #logo > img {
+    height: 222px;
+}
+
+#SongView #info #text h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    font-style: normal;
+    margin-left: 9px; 
+}
+
+#SongView #info {
+    display: flex;
+    padding-top: 33px;
+}
+
+#SongView #author {
+    display: flex;
+}
+
+#SongView #text {
+    padding-top: 99px;
+}
+#SongView #author span {
+    margin-left: 9px;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+}
+
+#SongView #author #logo img {
+    border-radius: 50%;
+}
+
+#SongView #table {
+    color: #a7a7a7;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+#SongView #table thead th {
+    text-align: left;
+}
+
+/* 
+#SongView thead {
+    border-bottom: 2px solid #a7a7a7;
+}
+*/
+#table thead th {
+    margin-right: 4px;
+}
+#SongView #table td img {
+    margin: auto;
+    width: 24px;
+} 
+
+#table tr td{
+    margin-right: 4px;
+}
+
+#SongView table img {
+    height: 24px;
+}
+
+#SongView table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 555px;
+    font-size: 0.9em;
+    color: #a7a7a7;
+    padding-left: 50px;
+}
+#SongView thead {
+    border-bottom: 2px solid #a7a7a7;
+}
+
+#SongView tbody {
+    margin-top: 5px;
+}
+
+#SongView th {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#SongView svg {
+    height: 16px;
+}
+
+#SongView td, th {
+    padding: 4px 32px;
+}
+
+#SongView hr {
+    color: #a7a7a7;
+    height: 1px;
+    width: 100;
+}
+
+#div {
+    margin-left: 50px;
+}
+
+td {
+    transition: all 2s ease-in-out;
+}
+.playSong {
+    background-color: #00b241;
+    padding: 3.3px 9px;
+    padding-top: 5px;
+    border-radius: 50%;
+    display: none;
+    transition: all 2s ease-in-out;
+
+}
+
+td:hover .playSong {
+    display: block;
+}
+td:hover p {
+    display: none;
+}
+
+td p {
+    transition: all 2s ease-in-out;
+
+}

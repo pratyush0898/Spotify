@@ -1,0 +1,27 @@
+#sidebar {
+    background: #121212;
+    height: 69dvh;
+    width: 75px;
+    border-radius: 9px;
+    overflow: scroll;
+}
+
+#lib-icon svg {
+    height: 50px;
+    width: auto;
+    fill: #999;
+    margin: 1rem 9px;
+    transition: all 200ms ease-in-out;
+}
+
+#lib-icon:hover svg {
+    fill: #f0f8ff;
+}
+
+#playlists li img {
+    height: 51px;
+    width: auto;
+    margin: 0.9rem 9px;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+}

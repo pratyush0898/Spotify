@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    background: #0a0a0a;
+    margin: 9.99px 9.99px 9.99px;
+    border-radius: 16px;
+    z-index: 1000;
+}
+
+header #logo-sec {
+    display: flex;
+    align-items: center;
+}
+
+header #logo-sec span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#logo {
+    display: block; 
+    margin-left: 9px;
+    padding-top: 5.4px;
+}
+
+#logo img {
+    height: 33px;
+    width: auto;
+    display: inline-block; /* Make the SVG image inline-block */
+    vertical-align: middle;
+}
+
+#logo::after {
+    content: "";
+    display: inline-block;
+    height: 100%; /* Set height to 100% of container */
+    vertical-align: middle;
+    visibility: hidden; /* Hide the helper element */
+}
+
+#circle-account {
+    width: 33px;
+    height: 33px;
+    background-color: #16c60c;
+    border-radius: 50%;
+    margin-right: 50px;
+    padding-top: 1.5px;
+}
+
+#circle-account img {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+

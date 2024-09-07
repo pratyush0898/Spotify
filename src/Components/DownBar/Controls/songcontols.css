@@ -1,0 +1,44 @@
+#control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: auto;
+    width: 100%;
+    border-radius: 9px;
+    position: fixed;
+    z-index: 999;
+    background: #000;
+    padding: 24px 32px;
+}
+
+svg, 
+img {
+    height: 32px;
+}
+
+#songLogo img {
+    border-radius: 2px;
+}
+
+#control {
+    display: flex;
+}
+
+#playPause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 38px;
+    background-color: #00b241;
+    border-radius: 50%;
+}
+
+#playPause div {
+    margin-top: 5px;
+}
+
+#controlButtons {
+    display: flex;
+}

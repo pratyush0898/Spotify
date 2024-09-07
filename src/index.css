@@ -1,0 +1,36 @@
+:root {
+    --background: #000;
+    --SpotifyLogo: #10bc4c;
+    --sidebar-background: #0f0f0f;
+    --sidebar-hover-background: #151515;
+    --Playview-background: #121212;
+    --SongList-background: #121212;
+    --TimeSongList-background: #999;
+    --AuthorSongList-background: #666;
+    --SRnum-SongList: #777;
+    --PlaySongList: #1fdc63;
+    --white: #fff;
+    --alicewhite: #f0f8ff;
+    --red: #f00;
+    --alicered: #e000;
+    --green: #0f0;
+    --gray: #6660.5625rem;
+    --alicegreen: #16c60c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+}
